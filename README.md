@@ -1,4 +1,13 @@
 # POULTRY-POSE-DEEPLABCUTV2.
+
+Below is the list of objectives for this paper.
+- To produce a poultry dataset that is annotated with the body keypoints.
+- To propose a deep learning model that can detect the keypoints of a poultry
+on a video.
+- To compare the accuracy of the proposed models to other models with
+different hyperparameters and backbones.
+
+
 This repo is for my Project 2 thesis results.
 The notebook named "startingwith_DeepLabCut" is presenting the necessary codes to run deeplabcut (particularly the library installed and the folder path).
 
