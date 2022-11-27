@@ -19,7 +19,7 @@ different hyperparameters and backbones.
 This repo is for my Project 2 thesis results.
 
 
-All the codes used here is the common DeepLabCut command, to understand the parameters of each commands visit DeepLabCut docstrings: (https://github.com/DeepLabCut/DeepLabCut/wiki/DOCSTRINGS#)
+All the codes used here is the common DeepLabCut command, to understand the parameters of each commands visit [DeepLabCut docstrings](https://github.com/DeepLabCut/DeepLabCut/wiki/DOCSTRINGS#)
 
 
 A poultry dataset to train a DNN that can detect keypoints on poultry with deeplabcut v2.
