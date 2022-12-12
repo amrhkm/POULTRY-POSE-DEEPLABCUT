@@ -1,0 +1,92 @@
+    # Project definitions (do not edit)
+Task: largewithaug
+scorer: amir
+date: Dec20
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: /content/drive/MyDrive/largewithaug-amir-2021-12-20
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  C:\Users\hamir\Desktop\UNTRAINED\largewithaug-amir-2021-12-20\videos\chicken1.mp4:
+    crop: 0, 1280, 0, 720
+  C:\Users\hamir\Desktop\UNTRAINED\largewithaug-amir-2021-12-20\videos\chicken1f.mp4:
+    crop: 0, 1280, 0, 720
+  C:\Users\hamir\Desktop\UNTRAINED\largewithaug-amir-2021-12-20\videos\chicken5.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\hamir\Desktop\UNTRAINED\largewithaug-amir-2021-12-20\videos\chicken5s.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\hamir\Desktop\UNTRAINED\largewithaug-amir-2021-12-20\videos\chicken6s.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\hamir\Desktop\UNTRAINED\largewithaug-amir-2021-12-20\videos\chicken6sf.mp4:
+    crop: 0, 1280, 0, 720
+  C:\Users\hamir\Desktop\UNTRAINED\largewithaug-amir-2021-12-20\videos\chicken8.mp4:
+    crop: 0, 1280, 0, 720
+  C:\Users\hamir\Desktop\UNTRAINED\largewithaug-amir-2021-12-20\videos\chicken10.mp4:
+    crop: 0, 1280, 0, 720
+  C:\Users\hamir\Desktop\UNTRAINED\largewithaug-amir-2021-12-20\videos\chicken11.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\hamir\Desktop\UNTRAINED\largewithaug-amir-2021-12-20\videos\chicken11fs.mp4:
+    crop: 0, 1280, 0, 720
+  C:\Users\hamir\Desktop\UNTRAINED\largewithaug-amir-2021-12-20\videos\chicken13.mp4:
+    crop: 0, 596, 0, 336
+  C:\Users\hamir\Desktop\UNTRAINED\largewithaug-amir-2021-12-20\videos\chicken14.mp4:
+    crop: 0, 596, 0, 336
+  C:\Users\hamir\Desktop\UNTRAINED\largewithaug-amir-2021-12-20\videos\chicken16.mp4:
+    crop: 0, 596, 0, 336
+  C:\Users\hamir\Desktop\UNTRAINED\largewithaug-amir-2021-12-20\videos\chicken17s.mp4:
+    crop: 0, 596, 0, 336
+  C:\Users\hamir\Desktop\UNTRAINED\largewithaug-amir-2021-12-20\videos\chicken19.mp4:
+    crop: 0, 596, 0, 336
+  C:\Users\hamir\Desktop\UNTRAINED\largewithaug-amir-2021-12-20\videos\chicken19f.mp4:
+    crop: 0, 1280, 0, 720
+bodyparts:
+- center
+- head
+- tail
+- leftleg
+- rightleg
+start: 0
+stop: 1
+numframes2pick: 16
+
+    # Plotting configuration
+skeleton:
+- - center
+  - head
+- - center
+  - tail
+- - center
+  - leftleg
+- - center
+  - rightleg
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 12
+alphavalue: 0.7
+colormap: plasma
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.80
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
