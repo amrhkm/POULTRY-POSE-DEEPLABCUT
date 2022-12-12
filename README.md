@@ -13,16 +13,32 @@ on a video.
 - To compare the accuracy of the proposed models to other models with
 different hyperparameters and backbones.
 
+# Example of the detection on final tuned model  
+![](https://github.com/amrhkm/POULTRY-POSE-DEEPLABCUT/blob/main/miscellaneous/example3.gif)
+
+# Detected bodyparts
+bodyparts:
+- center
+- head
+- tail
+- leftleg
+- rightleg
+
+# Plotting configuration
+skeleton:
+- - center
+  - head
+- - center
+  - tail
+- - center
+  - leftleg
+- - center
+  - rightleg
 
 This repo is for my Project 2 thesis results.
 
-
 All the codes used here is the common DeepLabCut command, to understand the parameters of each commands visit [DeepLabCut docstrings](https://github.com/DeepLabCut/DeepLabCut/wiki/DOCSTRINGS#)
-
 
 A poultry dataset to train a DNN that can detect keypoints on poultry with deeplabcut v2.
 To view the complete poultry chicken dataset, click the onedrive link 
 [training dataset and model outcome](https://unitenedumy-my.sharepoint.com/:f:/g/personal/ee0102953_student_uniten_edu_my/ErQn9OZZyuFEuQ4XCLW4N4QBGJ6bKzLdwJhIsie7LEu8Fg?e=sx2HYC)
-
-# Example of the detection on final tuned model
-![](https://github.com/amrhkm/POULTRY-POSE-DEEPLABCUT/blob/main/miscellaneous/example3.gif)
