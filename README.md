@@ -25,4 +25,4 @@ To view the complete poultry chicken dataset, click the onedrive link
 [training dataset and model outcome](https://unitenedumy-my.sharepoint.com/:f:/g/personal/ee0102953_student_uniten_edu_my/ErQn9OZZyuFEuQ4XCLW4N4QBGJ6bKzLdwJhIsie7LEu8Fg?e=sx2HYC)
 
 # Example of the detection on final tuned model
-![](https://github.com/amrhkm/POULTRY-POSE-DEEPLABCUT/tree/main/miscellaneous)
+![](https://github.com/amrhkm/POULTRY-POSE-DEEPLABCUT/blob/main/miscellaneous/example3.gif)
